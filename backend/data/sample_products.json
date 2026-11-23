@@ -1,0 +1,2273 @@
+{
+  "categories": [
+    {
+      "_id": "6b0d50000000000000000001",
+      "name": "Sneakers"
+    },
+    {
+      "_id": "6b0d50000000000000000002",
+      "name": "Boots"
+    },
+    {
+      "_id": "6b0d50000000000000000003",
+      "name": "Slides & Crocs"
+    },
+    {
+      "_id": "6b0d50000000000000000004",
+      "name": "T-Shirts & Shirts"
+    },
+    {
+      "_id": "6b0d50000000000000000005",
+      "name": "Hoodies & Tracksuits"
+    },
+    {
+      "_id": "6b0d50000000000000000006",
+      "name": "Jeans & Pants"
+    },
+    {
+      "_id": "6b0d50000000000000000007",
+      "name": "Shorts & Jorts"
+    },
+    {
+      "_id": "6b0d50000000000000000008",
+      "name": "Complete Outfits"
+    },
+    {
+      "_id": "6b0d50000000000000000009",
+      "name": "Bags & Backpacks"
+    },
+    {
+      "_id": "6b0d5000000000000000000a",
+      "name": "Belts"
+    },
+    {
+      "_id": "6b0d5000000000000000000b",
+      "name": "Caps & Beanies"
+    },
+    {
+      "_id": "6b0d5000000000000000000c",
+      "name": "Jewelry & Grillz"
+    },
+    {
+      "_id": "6b0d5000000000000000000d",
+      "name": "Eyewear & Accessories"
+    }
+  ],
+  "products": [
+    {
+      "name": "Spider Crocs Clog – Navy",
+      "price": 2800,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000003",
+      "description": "Spider Crocs Clog – Navy from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4307_1.jpg",
+        "ds_4307_2.jpg",
+        "ds_4307_3.jpg",
+        "ds_4307_4.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4307"
+    },
+    {
+      "name": "Bape Camo Crocs – Pink",
+      "price": 3200,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000003",
+      "description": "Bape Camo Crocs – Pink from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4304_1.jpg",
+        "ds_4304_2.jpg",
+        "ds_4304_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4304"
+    },
+    {
+      "name": "Amiri Leather Belt – Black",
+      "price": 2500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000a",
+      "description": "Amiri Leather Belt – Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4303_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4303"
+    },
+    {
+      "name": "Chrome Hearts Cross Buckle Belt – White",
+      "price": 2800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000a",
+      "description": "Chrome Hearts Cross Buckle Belt – White from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4300_1.jpg",
+        "ds_4300_2.jpg",
+        "ds_4300_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4300"
+    },
+    {
+      "name": "Chrome Hearts Embossed Belt – Black",
+      "price": 2800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000a",
+      "description": "Chrome Hearts Embossed Belt – Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4296_1.jpg",
+        "ds_4296_2.jpg",
+        "ds_4296_3.jpg",
+        "ds_4296_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4296"
+    },
+    {
+      "name": "Burberry Monogram Belt – Beige",
+      "price": 2500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000a",
+      "description": "Burberry Monogram Belt – Beige from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4294_1.jpg",
+        "ds_4294_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4294"
+    },
+    {
+      "name": "White Graphic Tee & Black Jorts Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "White Graphic Tee & Black Jorts Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4291_1.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4291"
+    },
+    {
+      "name": "Rhude Green Tee & Vintage Jorts Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Rhude Green Tee & Vintage Jorts Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4290_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4290"
+    },
+    {
+      "name": "Graphic Tee & Black Denim Shorts Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Graphic Tee & Black Denim Shorts Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4289_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4289"
+    },
+    {
+      "name": "Los Angeles Tee & Flared Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Los Angeles Tee & Flared Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4288_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4288"
+    },
+    {
+      "name": "Black Graphic Tee & Light Wash Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Black Graphic Tee & Light Wash Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4287_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4287"
+    },
+    {
+      "name": "Black Embroidered Tee & Flare Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Black Embroidered Tee & Flare Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4286_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4286"
+    },
+    {
+      "name": "Spider Graphic Tee & Distressed Jeans Outfit",
+      "price": 9500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Spider Graphic Tee & Distressed Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4285_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4285"
+    },
+    {
+      "name": "Rhude Mint Tee & Graphic Shorts Set",
+      "price": 8000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Rhude Mint Tee & Graphic Shorts Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4284_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4284"
+    },
+    {
+      "name": "Vintage Wash Baggy Jorts",
+      "price": 2500,
+      "amount": "30–36 waist",
+      "category": "6b0d50000000000000000007",
+      "description": "Vintage Wash Baggy Jorts from DS Style. Available sizes: 30–36. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4280_1.jpg",
+        "ds_4280_2.jpg",
+        "ds_4280_3.jpg",
+        "ds_4280_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4280"
+    },
+    {
+      "name": "DC Court Graffik Sneakers – Black/Pink",
+      "price": 4500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000001",
+      "description": "DC Court Graffik Sneakers – Black/Pink from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4276_1.jpg",
+        "ds_4276_2.jpg",
+        "ds_4276_3.jpg",
+        "ds_4276_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4276"
+    },
+    {
+      "name": "Royal Blue Graphic Tee & Shorts Set",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Royal Blue Graphic Tee & Shorts Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4275_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4275"
+    },
+    {
+      "name": "Brown Plaid Shirt & Shorts Set",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Brown Plaid Shirt & Shorts Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4274_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4274"
+    },
+    {
+      "name": "Grey Plaid Shirt & Shorts Set",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Grey Plaid Shirt & Shorts Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4273_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4273"
+    },
+    {
+      "name": "Cross Print Sweatpants & Raglan Tee Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Cross Print Sweatpants & Raglan Tee Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4272_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4272"
+    },
+    {
+      "name": "Striped Tee & Ripped Jeans Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Striped Tee & Ripped Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4271_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4271"
+    },
+    {
+      "name": "Light Blue Polo & Patched Black Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Light Blue Polo & Patched Black Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4270_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4270"
+    },
+    {
+      "name": "Black Graphic Tee & Baggy Jeans Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Black Graphic Tee & Baggy Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4269_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4269"
+    },
+    {
+      "name": "Pink Polo & Distressed Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Pink Polo & Distressed Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4268_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4268"
+    },
+    {
+      "name": "Diesel Tee & Track Pants Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Diesel Tee & Track Pants Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4267_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4267"
+    },
+    {
+      "name": "Red Long Sleeve & Grey Sweatpants Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Red Long Sleeve & Grey Sweatpants Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4266_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4266"
+    },
+    {
+      "name": "Red Striped Knit Sweater & Jeans Outfit",
+      "price": 9500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Red Striped Knit Sweater & Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4265_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4265"
+    },
+    {
+      "name": "Chrome Hearts Cross Buckle Belt – Black Croc",
+      "price": 3000,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000a",
+      "description": "Chrome Hearts Cross Buckle Belt – Black Croc from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4260_1.jpg",
+        "ds_4260_2.jpg",
+        "ds_4260_3.jpg",
+        "ds_4260_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4260"
+    },
+    {
+      "name": "Chrome Hearts Raglan Long Sleeve – Blue/White",
+      "price": 2800,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Chrome Hearts Raglan Long Sleeve – Blue/White from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4256_1.jpg",
+        "ds_4256_2.jpg",
+        "ds_4256_3.jpg",
+        "ds_4256_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4256"
+    },
+    {
+      "name": "Pink Graphic Crop Tee",
+      "price": 2200,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Pink Graphic Crop Tee from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4252_1.jpg",
+        "ds_4252_2.jpg",
+        "ds_4252_3.jpg",
+        "ds_4252_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4252"
+    },
+    {
+      "name": "Vans Knu Skool – Black/White",
+      "price": 4500,
+      "amount": "38, 39, 40, 41, 42, 43 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Vans Knu Skool – Black/White from DS Style. Available sizes: 38, 39, 40, 41, 42, 43. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4248_1.jpg",
+        "ds_4248_2.jpg",
+        "ds_4248_3.jpg",
+        "ds_4248_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4248"
+    },
+    {
+      "name": "Clean Baggy Jeans – Light Wash",
+      "price": 3000,
+      "amount": "30–36 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Clean Baggy Jeans – Light Wash from DS Style. Available sizes: 30–36. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4246_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4246"
+    },
+    {
+      "name": "Clean Baggy Jeans – Mid Wash",
+      "price": 3000,
+      "amount": "30–36 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Clean Baggy Jeans – Mid Wash from DS Style. Available sizes: 30–36. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4245_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4245"
+    },
+    {
+      "name": "Clean Baggy Jeans – Faded Blue",
+      "price": 3000,
+      "amount": "30–36 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Clean Baggy Jeans – Faded Blue from DS Style. Available sizes: 30–36. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4244_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4244"
+    },
+    {
+      "name": "Clean Baggy Jeans – Vintage Tint",
+      "price": 3000,
+      "amount": "30–36 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Clean Baggy Jeans – Vintage Tint from DS Style. Available sizes: 30–36. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4243_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4243"
+    },
+    {
+      "name": "Clean Baggy Jeans – Bleached",
+      "price": 3000,
+      "amount": "30–36 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Clean Baggy Jeans – Bleached from DS Style. Available sizes: 30–36. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4242_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4242"
+    },
+    {
+      "name": "Amiri Slim Fit Jeans – Black/Red Patch",
+      "price": 3500,
+      "amount": "30–38 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Amiri Slim Fit Jeans – Black/Red Patch from DS Style. Available sizes: 30–38. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4241_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4241"
+    },
+    {
+      "name": "Amiri Slim Fit Jeans – Paint Splatter",
+      "price": 3500,
+      "amount": "30–38 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Amiri Slim Fit Jeans – Paint Splatter from DS Style. Available sizes: 30–38. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4240_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4240"
+    },
+    {
+      "name": "Slim Fit Patchwork Jeans – Vintage Blue",
+      "price": 3500,
+      "amount": "30–38 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Slim Fit Patchwork Jeans – Vintage Blue from DS Style. Available sizes: 30–38. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4239_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4239"
+    },
+    {
+      "name": "Amiri Slim Fit Jeans – Black/Blue Patch",
+      "price": 3500,
+      "amount": "30–38 waist",
+      "category": "6b0d50000000000000000006",
+      "description": "Amiri Slim Fit Jeans – Black/Blue Patch from DS Style. Available sizes: 30–38. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4238_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4238"
+    },
+    {
+      "name": "Yeezy Slides – Desert Sand",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000003",
+      "description": "Yeezy Slides – Desert Sand from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4237_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4237"
+    },
+    {
+      "name": "Yeezy Slides – Granite Grey",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000003",
+      "description": "Yeezy Slides – Granite Grey from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4236_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4236"
+    },
+    {
+      "name": "Spider Crocs Clog – Charcoal",
+      "price": 2800,
+      "amount": "36–45 EU",
+      "category": "6b0d50000000000000000003",
+      "description": "Spider Crocs Clog – Charcoal from DS Style. Available sizes: 36–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4235_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4235"
+    },
+    {
+      "name": "Spider Crocs Clog – Navy Blue",
+      "price": 2800,
+      "amount": "36–45 EU",
+      "category": "6b0d50000000000000000003",
+      "description": "Spider Crocs Clog – Navy Blue from DS Style. Available sizes: 36–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4234_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4234"
+    },
+    {
+      "name": "Spider Crocs Clog – Black/Red Web",
+      "price": 2800,
+      "amount": "36–45 EU",
+      "category": "6b0d50000000000000000003",
+      "description": "Spider Crocs Clog – Black/Red Web from DS Style. Available sizes: 36–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4233_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4233"
+    },
+    {
+      "name": "Spider Crocs Clog – Red",
+      "price": 2800,
+      "amount": "36–45 EU",
+      "category": "6b0d50000000000000000003",
+      "description": "Spider Crocs Clog – Red from DS Style. Available sizes: 36–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4232_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4232"
+    },
+    {
+      "name": "Spider Crocs & Yeezy Slides Collection",
+      "price": 2800,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000003",
+      "description": "Spider Crocs & Yeezy Slides Collection from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4229_1.jpg",
+        "ds_4229_2.jpg",
+        "ds_4229_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4229"
+    },
+    {
+      "name": "Iced Gold Grillz – Top & Bottom Set",
+      "price": 3000,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Iced Gold Grillz – Top & Bottom Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4219_1.jpg",
+        "ds_4219_2.jpg",
+        "ds_4219_3.jpg",
+        "ds_4219_4.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4219"
+    },
+    {
+      "name": "Gold Fang & Single Tooth Grillz",
+      "price": 1500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Gold Fang & Single Tooth Grillz from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4209_1.jpg",
+        "ds_4209_2.jpg",
+        "ds_4209_3.jpg",
+        "ds_4209_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4209"
+    },
+    {
+      "name": "Star Stud Earrings – Gold & Silver",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Star Stud Earrings – Gold & Silver from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4207_1.jpg",
+        "ds_4207_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4207"
+    },
+    {
+      "name": "Green Tee & Patchwork Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Green Tee & Patchwork Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4206_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4206"
+    },
+    {
+      "name": "Black Tee & Paint Splatter Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Black Tee & Paint Splatter Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4205_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4205"
+    },
+    {
+      "name": "White Cross Tee & Black Graphic Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "White Cross Tee & Black Graphic Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4204_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4204"
+    },
+    {
+      "name": "Brown Tee & Black Flare Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Brown Tee & Black Flare Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4203_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4203"
+    },
+    {
+      "name": "Royal Blue Graphic Tee & Sweatpants Set",
+      "price": 7500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Royal Blue Graphic Tee & Sweatpants Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4202_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4202"
+    },
+    {
+      "name": "Purple Tee & Rhinestone Black Jeans Outfit",
+      "price": 9500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Purple Tee & Rhinestone Black Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4201_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4201"
+    },
+    {
+      "name": "Pink Cross Tee & Light Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Pink Cross Tee & Light Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4200_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4200"
+    },
+    {
+      "name": "Skull Graphic Tee & Distressed Jeans Outfit",
+      "price": 9000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Skull Graphic Tee & Distressed Jeans Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4199_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4199"
+    },
+    {
+      "name": "Red Splatter Tee & Vintage Jorts Outfit",
+      "price": 8500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000008",
+      "description": "Red Splatter Tee & Vintage Jorts Outfit from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4198_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4198"
+    },
+    {
+      "name": "ICD Rhinestone Belts – Assorted",
+      "price": 1800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000a",
+      "description": "ICD Rhinestone Belts – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4195_1.jpg",
+        "ds_4195_2.jpg",
+        "ds_4195_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4195"
+    },
+    {
+      "name": "Grillz Collection – Gold & Silver",
+      "price": 2000,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Grillz Collection – Gold & Silver from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4192_1.jpg",
+        "ds_4192_2.jpg",
+        "ds_4192_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4192"
+    },
+    {
+      "name": "Nike x NOCTA Tech Fleece Set – Red",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Nike x NOCTA Tech Fleece Set – Red from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4191_1.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4191"
+    },
+    {
+      "name": "Nike Tech Fleece Set – Light Grey",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Nike Tech Fleece Set – Light Grey from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4190_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4190"
+    },
+    {
+      "name": "Nike Tech Fleece Set – Red/Black",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Nike Tech Fleece Set – Red/Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4189_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4189"
+    },
+    {
+      "name": "Nike x NOCTA Tech Fleece Set – Heather Grey",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Nike x NOCTA Tech Fleece Set – Heather Grey from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4188_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4188"
+    },
+    {
+      "name": "Nike x NOCTA Tech Fleece Set – Baby Blue",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Nike x NOCTA Tech Fleece Set – Baby Blue from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4187_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4187"
+    },
+    {
+      "name": "Baggy Jeans – Black Fade",
+      "price": 3000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000006",
+      "description": "Baggy Jeans – Black Fade from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4186_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4186"
+    },
+    {
+      "name": "Vintage Wash Jorts – Light Blue",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000007",
+      "description": "Vintage Wash Jorts – Light Blue from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4185_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4185"
+    },
+    {
+      "name": "Nike x NOCTA Tech Fleece Set – Sky Blue",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Nike x NOCTA Tech Fleece Set – Sky Blue from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4184_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4184"
+    },
+    {
+      "name": "Slim Jeans – Patchwork Collection",
+      "price": 3200,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000006",
+      "description": "Slim Jeans – Patchwork Collection from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4183_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4183"
+    },
+    {
+      "name": "Baggy Distressed Jeans – Vintage Blue",
+      "price": 3000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000006",
+      "description": "Baggy Distressed Jeans – Vintage Blue from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4182_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4182"
+    },
+    {
+      "name": "Baggy Jeans – Light Stone Wash",
+      "price": 3000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000006",
+      "description": "Baggy Jeans – Light Stone Wash from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4181_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4181"
+    },
+    {
+      "name": "Chrome Hearts Cross Baggy Jeans",
+      "price": 3800,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000006",
+      "description": "Chrome Hearts Cross Baggy Jeans from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4180_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4180"
+    },
+    {
+      "name": "Slim Jeans – Paint Splash Light Blue",
+      "price": 3200,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000006",
+      "description": "Slim Jeans – Paint Splash Light Blue from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4179_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4179"
+    },
+    {
+      "name": "Slim Jeans – Black/Red Patch",
+      "price": 3200,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000006",
+      "description": "Slim Jeans – Black/Red Patch from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4178_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4178"
+    },
+    {
+      "name": "Bape Shark Backpack – Assorted",
+      "price": 4500,
+      "amount": "One size",
+      "category": "6b0d50000000000000000009",
+      "description": "Bape Shark Backpack – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4173_1.jpg",
+        "ds_4173_2.jpg",
+        "ds_4173_3.jpg",
+        "ds_4173_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4173"
+    },
+    {
+      "name": "Spiderman Crocs – Red/Black",
+      "price": 3000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000003",
+      "description": "Spiderman Crocs – Red/Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4170_1.jpg",
+        "ds_4170_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4170"
+    },
+    {
+      "name": "Spiderman Crocs Clog – Burgundy",
+      "price": 3000,
+      "amount": "36–45 EU",
+      "category": "6b0d50000000000000000003",
+      "description": "Spiderman Crocs Clog – Burgundy from DS Style. Available sizes: 36–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4169_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4169"
+    },
+    {
+      "name": "Chrome Hearts Raglan Long Sleeve – Assorted",
+      "price": 2800,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Chrome Hearts Raglan Long Sleeve – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4168_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4168"
+    },
+    {
+      "name": "Jordan 5 x Awake NY 'Racer Blue' – Collection",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 5 x Awake NY 'Racer Blue' – Collection from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4167_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4167"
+    },
+    {
+      "name": "Jordan 5 x Awake NY 'Racer Blue'",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 5 x Awake NY 'Racer Blue' from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4166_1.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4166"
+    },
+    {
+      "name": "Jordan 5 'Wolf Grey'",
+      "price": 6500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 5 'Wolf Grey' from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4165_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4165"
+    },
+    {
+      "name": "Air Jordan 1 Low – Navy Dunk",
+      "price": 5500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000001",
+      "description": "Air Jordan 1 Low – Navy Dunk from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4162_1.jpg",
+        "ds_4162_2.jpg",
+        "ds_4162_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4162"
+    },
+    {
+      "name": "Graphic Print T-Shirt – White",
+      "price": 1800,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Graphic Print T-Shirt – White from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4159_1.jpg",
+        "ds_4159_2.jpg",
+        "ds_4159_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4159"
+    },
+    {
+      "name": "Chrome Hearts T-Shirt – White",
+      "price": 2200,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Chrome Hearts T-Shirt – White from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4151_1.jpg",
+        "ds_4151_2.jpg",
+        "ds_4151_3.jpg",
+        "ds_4151_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4151"
+    },
+    {
+      "name": "Chrome Hearts Cross Patch Tee – Brown",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Chrome Hearts Cross Patch Tee – Brown from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4145_1.jpg",
+        "ds_4145_2.jpg",
+        "ds_4145_3.jpg",
+        "ds_4145_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4145"
+    },
+    {
+      "name": "Chrome Hearts T-Shirt – Black",
+      "price": 2200,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Chrome Hearts T-Shirt – Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4139_1.jpg",
+        "ds_4139_2.jpg",
+        "ds_4139_3.jpg",
+        "ds_4139_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4139"
+    },
+    {
+      "name": "Star Patch Crop Shirt – Light Blue",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Star Patch Crop Shirt – Light Blue from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4137_1.jpg",
+        "ds_4137_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4137"
+    },
+    {
+      "name": "Star Patch Crop Shirt – Grey Stripe",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Star Patch Crop Shirt – Grey Stripe from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4135_1.jpg",
+        "ds_4135_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4135"
+    },
+    {
+      "name": "Star Patch Crop Shirt – Beige",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Star Patch Crop Shirt – Beige from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4133_1.jpg",
+        "ds_4133_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4133"
+    },
+    {
+      "name": "Crop Shirt – Pink Stripe",
+      "price": 2500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Crop Shirt – Pink Stripe from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4131_1.jpg",
+        "ds_4131_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4131"
+    },
+    {
+      "name": "Gold & Silver 6-Tooth Grillz",
+      "price": 2500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Gold & Silver 6-Tooth Grillz from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4128_1.jpg",
+        "ds_4128_2.jpg",
+        "ds_4128_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4128"
+    },
+    {
+      "name": "Iced Gold Grillz Set",
+      "price": 3000,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Iced Gold Grillz Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4125_1.jpg",
+        "ds_4125_2.jpg",
+        "ds_4125_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4125"
+    },
+    {
+      "name": "Single Tooth Grillz – Flame, Bow & Fang",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Single Tooth Grillz – Flame, Bow & Fang from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4122_1.jpg",
+        "ds_4122_2.jpg",
+        "ds_4122_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4122"
+    },
+    {
+      "name": "Star Tooth Grillz – Gold & Silver",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Star Tooth Grillz – Gold & Silver from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4119_1.jpg",
+        "ds_4119_2.jpg",
+        "ds_4119_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4119"
+    },
+    {
+      "name": "Iced Gold Grillz – Full Set",
+      "price": 3000,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Iced Gold Grillz – Full Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4116_1.jpg",
+        "ds_4116_2.jpg",
+        "ds_4116_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4116"
+    },
+    {
+      "name": "Gold Two-Tooth Cap Grillz",
+      "price": 1500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Gold Two-Tooth Cap Grillz from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4113_1.jpg",
+        "ds_4113_2.jpg",
+        "ds_4113_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4113"
+    },
+    {
+      "name": "Diamond-Cut Iced Grillz – Gold",
+      "price": 3200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Diamond-Cut Iced Grillz – Gold from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4110_1.jpg",
+        "ds_4110_2.jpg",
+        "ds_4110_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4110"
+    },
+    {
+      "name": "Washed Grey Tee & Sweatpants Set",
+      "price": 5500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Washed Grey Tee & Sweatpants Set from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4107_1.jpg",
+        "ds_4107_2.jpg",
+        "ds_4107_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4107"
+    },
+    {
+      "name": "Paisley Bandana – Assorted Colors",
+      "price": 500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000d",
+      "description": "Paisley Bandana – Assorted Colors from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4104_1.jpg",
+        "ds_4104_2.jpg",
+        "ds_4104_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4104"
+    },
+    {
+      "name": "Paisley Bandana – Black",
+      "price": 500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000d",
+      "description": "Paisley Bandana – Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4101_1.jpg",
+        "ds_4101_2.jpg",
+        "ds_4101_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4101"
+    },
+    {
+      "name": "Paisley Bandana – Classic Colors",
+      "price": 500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000d",
+      "description": "Paisley Bandana – Classic Colors from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4098_1.jpg",
+        "ds_4098_2.jpg",
+        "ds_4098_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4098"
+    },
+    {
+      "name": "ASICS Gel – Triple Black",
+      "price": 5500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "ASICS Gel – Triple Black from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4097_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4097"
+    },
+    {
+      "name": "ASICS Gel-Kayano – Silver/White",
+      "price": 5500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "ASICS Gel-Kayano – Silver/White from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4096_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4096"
+    },
+    {
+      "name": "ASICS Gel-Kayano – Cream/Grey",
+      "price": 5500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "ASICS Gel-Kayano – Cream/Grey from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4095_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4095"
+    },
+    {
+      "name": "Graffiti Logo Knit Beanie",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000b",
+      "description": "Graffiti Logo Knit Beanie from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4090_1.jpg",
+        "ds_4090_2.jpg",
+        "ds_4090_3.jpg",
+        "ds_4090_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4090"
+    },
+    {
+      "name": "Syna Skull Cap – Grey/White/Black",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000b",
+      "description": "Syna Skull Cap – Grey/White/Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4087_1.jpg",
+        "ds_4087_2.jpg",
+        "ds_4087_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4087"
+    },
+    {
+      "name": "Chrome Hearts Tracksuit – White",
+      "price": 7500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Chrome Hearts Tracksuit – White from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4086_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4086"
+    },
+    {
+      "name": "Chrome Hearts Tracksuit – Black",
+      "price": 7500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Chrome Hearts Tracksuit – Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4085_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4085"
+    },
+    {
+      "name": "Chrome Hearts & Trucker Caps – Assorted",
+      "price": 1800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000b",
+      "description": "Chrome Hearts & Trucker Caps – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4082_1.jpg",
+        "ds_4082_2.jpg",
+        "ds_4082_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4082"
+    },
+    {
+      "name": "Syna Skull Cap – Assorted",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000b",
+      "description": "Syna Skull Cap – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4081_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4081"
+    },
+    {
+      "name": "Graphic Beanie Cap – Assorted",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000b",
+      "description": "Graphic Beanie Cap – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4079_1.jpg",
+        "ds_4079_2.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4079"
+    },
+    {
+      "name": "Balenciaga Shine – Triple Black",
+      "price": 6500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Balenciaga Shine – Triple Black from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4078_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4078"
+    },
+    {
+      "name": "Nike P-6000 – Collection",
+      "price": 5500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Nike P-6000 – Collection from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4077_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4077"
+    },
+    {
+      "name": "Vans Knu Skool – Black & Black/White",
+      "price": 4500,
+      "amount": "39–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Vans Knu Skool – Black & Black/White from DS Style. Available sizes: 39–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4076_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4076"
+    },
+    {
+      "name": "Air Force 1 Rope Lace – White & Black",
+      "price": 5000,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Air Force 1 Rope Lace – White & Black from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4075_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4075"
+    },
+    {
+      "name": "Air Jordan 1 – Collection",
+      "price": 6000,
+      "amount": "40–43 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Air Jordan 1 – Collection from DS Style. Available sizes: 40–43. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4074_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4074"
+    },
+    {
+      "name": "Jordan 3 – Collection",
+      "price": 6500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 3 – Collection from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4073_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4073"
+    },
+    {
+      "name": "Air Force 1 Custom – Black Rhinestone",
+      "price": 5500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Air Force 1 Custom – Black Rhinestone from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4072_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4072"
+    },
+    {
+      "name": "New Balance 9060 – Black/Grey",
+      "price": 6000,
+      "amount": "40–43 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "New Balance 9060 – Black/Grey from DS Style. Available sizes: 40–43. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4071_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4071"
+    },
+    {
+      "name": "Numeris Sneakers – Assorted",
+      "price": 5000,
+      "amount": "40–43 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Numeris Sneakers – Assorted from DS Style. Available sizes: 40–43. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4070_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4070"
+    },
+    {
+      "name": "Jordan 4 – Collection",
+      "price": 6500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 4 – Collection from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4069_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4069"
+    },
+    {
+      "name": "Jordan 5 – Collection",
+      "price": 6500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 5 – Collection from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4068_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4068"
+    },
+    {
+      "name": "Jordan 5 'Fire Red'",
+      "price": 6500,
+      "amount": "40–44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 5 'Fire Red' from DS Style. Available sizes: 40–44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4065_1.jpg",
+        "ds_4065_2.jpg",
+        "ds_4065_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4065"
+    },
+    {
+      "name": "Jordan 4 'UNC Blue'",
+      "price": 6500,
+      "amount": "40–43 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 4 'UNC Blue' from DS Style. Available sizes: 40–43. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4064_1.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4064"
+    },
+    {
+      "name": "Jordan 13 'Red Flint'",
+      "price": 6500,
+      "amount": "40–43 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 13 'Red Flint' from DS Style. Available sizes: 40–43. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4059_1.jpg",
+        "ds_4059_2.jpg",
+        "ds_4059_3.jpg",
+        "ds_4059_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4059"
+    },
+    {
+      "name": "Chrome Hearts Hoodie & Sweatpants – Collection",
+      "price": 7500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Chrome Hearts Hoodie & Sweatpants – Collection from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4056_1.jpg",
+        "ds_4056_2.jpg",
+        "ds_4056_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4056"
+    },
+    {
+      "name": "Timberland 6-Inch Boot – Black",
+      "price": 6500,
+      "amount": "40–45 EU",
+      "category": "6b0d50000000000000000002",
+      "description": "Timberland 6-Inch Boot – Black from DS Style. Available sizes: 40–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4055_1.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4055"
+    },
+    {
+      "name": "Timberland 6-Inch Boot – Wheat Orange",
+      "price": 6500,
+      "amount": "40–45 EU",
+      "category": "6b0d50000000000000000002",
+      "description": "Timberland 6-Inch Boot – Wheat Orange from DS Style. Available sizes: 40–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4054_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4054"
+    },
+    {
+      "name": "Timberland 6-Inch Boot – Grey",
+      "price": 6500,
+      "amount": "40–45 EU",
+      "category": "6b0d50000000000000000002",
+      "description": "Timberland 6-Inch Boot – Grey from DS Style. Available sizes: 40–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4053_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4053"
+    },
+    {
+      "name": "Timberland 6-Inch Boot – Classic Wheat",
+      "price": 6500,
+      "amount": "40–45 EU",
+      "category": "6b0d50000000000000000002",
+      "description": "Timberland 6-Inch Boot – Classic Wheat from DS Style. Available sizes: 40–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4052_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4052"
+    },
+    {
+      "name": "Timberland 6-Inch Boot – Perforated Wheat",
+      "price": 6500,
+      "amount": "40–45 EU",
+      "category": "6b0d50000000000000000002",
+      "description": "Timberland 6-Inch Boot – Perforated Wheat from DS Style. Available sizes: 40–45. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4051_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4051"
+    },
+    {
+      "name": "Bape Shark Backpack – Camo Collection",
+      "price": 4500,
+      "amount": "One size",
+      "category": "6b0d50000000000000000009",
+      "description": "Bape Shark Backpack – Camo Collection from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4047_1.jpg",
+        "ds_4047_2.jpg",
+        "ds_4047_3.jpg",
+        "ds_4047_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4047"
+    },
+    {
+      "name": "Bape Shark Backpack – White Money Print",
+      "price": 4800,
+      "amount": "One size",
+      "category": "6b0d50000000000000000009",
+      "description": "Bape Shark Backpack – White Money Print from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4037_1.jpg",
+        "ds_4037_2.jpg",
+        "ds_4037_3.jpg",
+        "ds_4037_4.jpg"
+      ],
+      "isFeatured": true,
+      "telegramPost": "https://t.me/DSstyles/4037"
+    },
+    {
+      "name": "Iced Square Dial Watch – Assorted",
+      "price": 4500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000d",
+      "description": "Iced Square Dial Watch – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4036_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4036"
+    },
+    {
+      "name": "Chrome Hearts Glasses – Black & Clear",
+      "price": 1800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000d",
+      "description": "Chrome Hearts Glasses – Black & Clear from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4035_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4035"
+    },
+    {
+      "name": "Hellstar Tracksuit – Pink",
+      "price": 7000,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Hellstar Tracksuit – Pink from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4031_1.jpg",
+        "ds_4031_2.jpg",
+        "ds_4031_3.jpg",
+        "ds_4031_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4031"
+    },
+    {
+      "name": "Bape Shark Backpack – Red",
+      "price": 4500,
+      "amount": "One size",
+      "category": "6b0d50000000000000000009",
+      "description": "Bape Shark Backpack – Red from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4027_1.jpg",
+        "ds_4027_2.jpg",
+        "ds_4027_3.jpg",
+        "ds_4027_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4027"
+    },
+    {
+      "name": "Graphic Beanies – Assorted",
+      "price": 1200,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000b",
+      "description": "Graphic Beanies – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4023_1.jpg",
+        "ds_4023_2.jpg",
+        "ds_4023_3.jpg",
+        "ds_4023_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4023"
+    },
+    {
+      "name": "Iced Rhinestone Belt – Assorted",
+      "price": 1800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000a",
+      "description": "Iced Rhinestone Belt – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4019_1.jpg",
+        "ds_4019_2.jpg",
+        "ds_4019_3.jpg",
+        "ds_4019_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4019"
+    },
+    {
+      "name": "Chrome Hearts Iced Zip Hoodie – Black",
+      "price": 4500,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000005",
+      "description": "Chrome Hearts Iced Zip Hoodie – Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4018_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4018"
+    },
+    {
+      "name": "Chrome Hearts Cross Chain Necklace",
+      "price": 2000,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Chrome Hearts Cross Chain Necklace from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4017_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4017"
+    },
+    {
+      "name": "Grillz – Assorted Styles",
+      "price": 1500,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000c",
+      "description": "Grillz – Assorted Styles from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4014_1.jpg",
+        "ds_4014_2.jpg",
+        "ds_4014_3.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4014"
+    },
+    {
+      "name": "Chrome Hearts Trucker Cap – Assorted",
+      "price": 1800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000b",
+      "description": "Chrome Hearts Trucker Cap – Assorted from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4009_1.jpg",
+        "ds_4009_2.jpg",
+        "ds_4009_3.jpg",
+        "ds_4009_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4009"
+    },
+    {
+      "name": "Iced Cross Rhinestone T-Shirt – Black",
+      "price": 2800,
+      "amount": "Ask for size",
+      "category": "6b0d50000000000000000004",
+      "description": "Iced Cross Rhinestone T-Shirt – Black from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4004_1.jpg",
+        "ds_4004_2.jpg",
+        "ds_4004_3.jpg",
+        "ds_4004_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4004"
+    },
+    {
+      "name": "Nike Shox TL – Assorted Colors",
+      "price": 6000,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Nike Shox TL – Assorted Colors from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_4003_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/4003"
+    },
+    {
+      "name": "Nike Shox TL – Black/Blue",
+      "price": 6000,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Nike Shox TL – Black/Blue from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3999_1.jpg",
+        "ds_3999_2.jpg",
+        "ds_3999_3.jpg",
+        "ds_3999_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3999"
+    },
+    {
+      "name": "Bape Shark Mini Backpack – Collection",
+      "price": 3800,
+      "amount": "One size",
+      "category": "6b0d50000000000000000009",
+      "description": "Bape Shark Mini Backpack – Collection from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3998_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3998"
+    },
+    {
+      "name": "Chrome Hearts Glasses – Collection",
+      "price": 1800,
+      "amount": "One size",
+      "category": "6b0d5000000000000000000d",
+      "description": "Chrome Hearts Glasses – Collection from DS Style. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3997_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3997"
+    },
+    {
+      "name": "Jordan 14 – Collection",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 14 – Collection from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3996_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3996"
+    },
+    {
+      "name": "Jordan 14 – Black/White",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 14 – Black/White from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3995_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3995"
+    },
+    {
+      "name": "Jordan 14 – Black/University Blue",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 14 – Black/University Blue from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3994_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3994"
+    },
+    {
+      "name": "Jordan 14 – Red/Black",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 14 – Red/Black from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3993_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3993"
+    },
+    {
+      "name": "Jordan 14 – Grey Suede",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 14 – Grey Suede from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3992_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3992"
+    },
+    {
+      "name": "Jordan 12 – Collection",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 12 – Collection from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3991_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3991"
+    },
+    {
+      "name": "Jordan 12 'Flu Game' – Black/Red",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 12 'Flu Game' – Black/Red from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3990_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3990"
+    },
+    {
+      "name": "Jordan 12 – White/University Blue",
+      "price": 6500,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Jordan 12 – White/University Blue from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3989_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3989"
+    },
+    {
+      "name": "Timberland Double Sole – Collection",
+      "price": 7000,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000002",
+      "description": "Timberland Double Sole – Collection from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3988_1.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3988"
+    },
+    {
+      "name": "Timberland Double Sole – Royal Blue",
+      "price": 7000,
+      "amount": "40, 41, 42, 43, 44 EU",
+      "category": "6b0d50000000000000000002",
+      "description": "Timberland Double Sole – Royal Blue from DS Style. Available sizes: 40, 41, 42, 43, 44. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3984_1.jpg",
+        "ds_3984_2.jpg",
+        "ds_3984_3.jpg",
+        "ds_3984_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3984"
+    },
+    {
+      "name": "Adidas Campus 00s – Black/White",
+      "price": 5000,
+      "amount": "36, 37, 38, 39 EU",
+      "category": "6b0d50000000000000000001",
+      "description": "Adidas Campus 00s – Black/White from DS Style. Available sizes: 36, 37, 38, 39. Order on Telegram @DSstyle2 or visit our shop at Golagole 22.",
+      "stock": 5,
+      "images": [
+        "ds_3978_1.jpg",
+        "ds_3978_2.jpg",
+        "ds_3978_3.jpg",
+        "ds_3978_4.jpg"
+      ],
+      "isFeatured": false,
+      "telegramPost": "https://t.me/DSstyles/3978"
+    }
+  ]
+}

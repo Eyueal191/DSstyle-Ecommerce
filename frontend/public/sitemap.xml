@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- 🏠 Home Page -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 🛍️ Complete Catalog / Shop -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 🧴 Category: Skincare -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop?category=Skincare</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ✨ Category: Fragrance & Perfumes -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop?category=Fragrance</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 💄 Category: Makeup -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop?category=Makeup</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 💇 Category: Haircare -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop?category=Haircare</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 🛁 Category: Body & Bath -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop?category=Body%20%26%20Bath</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 🪞 Category: Beauty Tools -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop?category=Beauty%20Tools</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- 🥨 Category: Pantry & Imported Chocolates -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/shop?category=Pantry%20%26%20Snacks</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ℹ️ About DS Style -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/about</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 📍 Contact & Boutique Location -->
+  <url>
+    <loc>https://dsstyle.endmartaddis.com/contact</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

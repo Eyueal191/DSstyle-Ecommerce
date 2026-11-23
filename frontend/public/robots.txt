@@ -1,0 +1,18 @@
+# robots.txt for DS Style (https://dsstyle.endmartaddis.com)
+User-agent: *
+Allow: /
+Allow: /shop
+Allow: /about
+Allow: /contact
+Allow: /product-detail/
+
+# Disallow private user states and transactional routes from indexation
+Disallow: /bag
+Disallow: /cart
+Disallow: /place-order
+Disallow: /orders
+Disallow: /settings
+Disallow: /api/
+
+# Sitemap location for search engines
+Sitemap: https://dsstyle.endmartaddis.com/sitemap.xml

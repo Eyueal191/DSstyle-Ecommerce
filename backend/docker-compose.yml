@@ -1,0 +1,33 @@
+# DS Style backend - local development
+#
+#   cd backend
+#   docker compose up -d --build                      # API + MongoDB in one container
+#   docker compose exec backend node scripts/seed.js  # seed sample products (empty DB only)
+#
+#   API      -> http://localhost:3040   (health: /health)
+#   MongoDB  -> mongodb://localhost:3043/Db_for_dsstyle  (Compass, or running the API outside Docker)
+name: dsstyle
+
+services:
+  backend:
+    build: .
+    container_name: dsstyle-backend
+    restart: unless-stopped
+    ports:
+      - "3040:3040"    # Express API
+      - "3043:27017"   # MongoDB
+    env_file:
+      - ./.env
+    environment:
+      - NODE_ENV=development
+      - PORT=3040
+      # Mongo runs inside the same container, so it is always localhost:27017 here
+      - MONGO_URI=mongodb://127.0.0.1:27017/Db_for_dsstyle
+    volumes:
+      - .:/app                  # live source (restart the container to apply changes)
+      - /app/node_modules       # keep the image's installed dependencies
+      - dsstyle_db:/data/db     # database persists across restarts
+
+volumes:
+  dsstyle_db:
+    name: dsstyle_local_db

@@ -1,0 +1,619 @@
+/* ==========================================================================
+   DS Style Design System · "DS Gold"
+   --------------------------------------------------------------------------
+   One token layer shared by the Storefront and the Admin portal.
+   - Brand: velvet plum #c9a043 (7:1 with white text), champagne gold accent.
+   - Neutrals: warm-neutral greys (gray-*) and warm black night tones (slate-*),
+     so every existing gray/slate utility picks up the new mood automatically.
+   - pink-* and rose-* are derived from the live brand accent, so hard-coded
+     brand classes follow whatever accent is chosen in the theme picker.
+   ========================================================================== */
+
+/* ---------- 1. Tailwind theme tokens ------------------------------------ */
+@theme {
+  /* Typography: Manrope for UI and body, Fraunces for display titles (font-title / font-serif) */
+  --font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;
+  --font-title: "Fraunces", ui-serif, Georgia, serif;
+  /* IDs and figures keep the UI face, with even-width numerals (see .font-mono below) */
+  --font-mono: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Brand scale: derived from the runtime accent (defaults to #c9a043) */
+  --color-pink-50: color-mix(in oklab, var(--brand-primary) 5%, white);
+  --color-pink-100: color-mix(in oklab, var(--brand-primary) 10%, white);
+  --color-pink-200: color-mix(in oklab, var(--brand-primary) 20%, white);
+  --color-pink-300: color-mix(in oklab, var(--brand-primary) 36%, white);
+  --color-pink-400: color-mix(in oklab, var(--brand-primary) 62%, white);
+  --color-pink-500: color-mix(in oklab, var(--brand-primary) 86%, white);
+  --color-pink-600: var(--brand-primary);
+  --color-pink-700: var(--brand-primary-hover);
+  --color-pink-800: color-mix(in oklab, var(--brand-primary) 72%, black);
+  --color-pink-900: color-mix(in oklab, var(--brand-primary) 56%, black);
+  --color-pink-950: color-mix(in oklab, var(--brand-primary) 36%, black);
+
+  /* Semantic brand aliases: bg-brand-soft, text-brand-strong, ring-brand ... */
+  --color-brand: var(--brand-primary);
+  --color-brand-strong: var(--brand-primary-hover);
+  --color-brand-soft: color-mix(in oklab, var(--brand-primary) 8%, white);
+
+  /* Rose mirrors the brand scale (it is used as the dark-mode brand variant) */
+  --color-rose-50: var(--color-pink-50);
+  --color-rose-100: var(--color-pink-100);
+  --color-rose-200: var(--color-pink-200);
+  --color-rose-300: var(--color-pink-300);
+  --color-rose-400: var(--color-pink-400);
+  --color-rose-500: var(--color-pink-500);
+  --color-rose-600: var(--color-pink-600);
+  --color-rose-700: var(--color-pink-700);
+  --color-rose-800: var(--color-pink-800);
+  --color-rose-900: var(--color-pink-900);
+  --color-rose-950: var(--color-pink-950);
+
+  /* Warm-neutral greys (pair with sapphire + gold) */
+  --color-gray-50: #fafaf8;
+  --color-gray-100: #f4f3f0;
+  --color-gray-200: #e7e5e0;
+  --color-gray-300: #d3d0c9;
+  --color-gray-400: #a29f97;
+  --color-gray-500: #6f6c65;
+  --color-gray-600: #57554f;
+  --color-gray-700: #3f3d39;
+  --color-gray-800: #292825;
+  --color-gray-900: #18181b;
+  --color-gray-950: #0c0c0e;
+
+  /* Warm black night tones (slate is mostly used for dark mode) */
+  --color-slate-50: #f7f6f3;
+  --color-slate-100: #eeece7;
+  --color-slate-200: #dcd8cf;
+  --color-slate-300: #c2bcb0;
+  --color-slate-400: #9a9384;
+  --color-slate-500: #767062;
+  --color-slate-600: #59544a;
+  --color-slate-700: #3c3933;
+  --color-slate-800: #24211c;
+  --color-slate-900: #161411;
+  --color-slate-950: #0c0b0a;
+
+  /* Champagne highlight: bg-champagne, text-champagne, border-champagne-soft */
+  --color-champagne: #c9a45c;
+  --color-champagne-strong: #a9853f;
+  --color-champagne-soft: #f5ecda;
+
+  /* Calm elevation: low-contrast, layered, slightly cool shadows */
+  --shadow-2xs: 0 1px 0 0 rgb(12 11 10 / 0.03);
+  --shadow-xs: 0 1px 2px 0 rgb(12 11 10 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(12 11 10 / 0.06), 0 1px 2px -1px rgb(12 11 10 / 0.04);
+  --shadow-md: 0 4px 10px -2px rgb(12 11 10 / 0.07), 0 2px 4px -2px rgb(12 11 10 / 0.04);
+  --shadow-lg: 0 12px 20px -6px rgb(12 11 10 / 0.09), 0 4px 8px -4px rgb(12 11 10 / 0.04);
+  --shadow-xl: 0 20px 32px -8px rgb(12 11 10 / 0.11), 0 8px 12px -6px rgb(12 11 10 / 0.04);
+  --shadow-2xl: 0 28px 56px -16px rgb(12 11 10 / 0.22);
+
+  /* Motion */
+  --ease-calm: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --animate-em-fade-in: em-fade-in 320ms var(--ease-calm) backwards;
+  --animate-em-rise: em-rise 360ms var(--ease-calm) backwards;
+  --animate-em-shimmer: em-shimmer 1.6s linear infinite;
+
+  @keyframes em-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes em-rise {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes em-shimmer {
+    from { background-position: 200% 0; }
+    to { background-position: -200% 0; }
+  }
+}
+
+/* ---------- 2. Semantic runtime tokens ---------------------------------- */
+@layer base {
+  :root {
+    /* Brand defaults; the theme manager overrides these at runtime */
+    --brand-primary: #c9a043;
+    --brand-primary-hover: #b58d33;
+    --brand-primary-light: #faf3e3;
+    --brand-primary-border: #ecd9a8;
+    --brand-primary-rgb: 201, 160, 67;
+
+    /* Surfaces & text (light) */
+    --em-bg: #f4f3f0;
+    --em-surface: #ffffff;
+    --em-surface-2: #fafaf8;
+    --em-surface-3: #f4f3f0;
+    --em-border: rgb(24 24 27 / 0.08);
+    --em-border-strong: rgb(24 24 27 / 0.14);
+    --em-text: #18181b;
+    --em-text-2: #57554f;
+    --em-text-3: #a29f97;
+    --em-overlay: rgb(12 11 10 / 0.5);
+
+    /* Interaction */
+    --em-ring: color-mix(in oklab, var(--brand-primary) 55%, transparent);
+    --em-ring-soft: color-mix(in oklab, var(--brand-primary) 18%, transparent);
+    --em-dur-fast: 140ms;
+    --em-dur: 200ms;
+    --em-dur-slow: 320ms;
+    --em-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+    /* Shape */
+    --em-radius-sm: 0.625rem;
+    --em-radius: 0.875rem;
+    --em-radius-lg: 1.25rem;
+
+    /* Safe areas (iOS notch / Telegram WebApp) */
+    --em-safe-bottom: env(safe-area-inset-bottom, 0px);
+    --em-safe-top: env(safe-area-inset-top, 0px);
+
+    /* Height of the fixed mobile bottom nav. MobileBottomNav overwrites this
+       with its measured height at runtime (0px when hidden on desktop). */
+    --em-mobile-nav-h: calc(4.25rem + var(--em-safe-bottom));
+  }
+
+  html.dark {
+    --em-bg: #0c0b0a;
+    --em-surface: #161411;
+    --em-surface-2: #1c1a16;
+    --em-surface-3: #24211c;
+    --em-border: rgb(255 255 255 / 0.07);
+    --em-border-strong: rgb(255 255 255 / 0.13);
+    --em-text: #f3efe6;
+    --em-text-2: #c9c2b4;
+    --em-text-3: #8f887b;
+    --em-overlay: rgb(4 4 3 / 0.7);
+    --em-ring: color-mix(in oklab, var(--brand-primary) 70%, white 10%);
+  }
+
+  /* ---------- 3. Global polish ------------------------------------------ */
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--brand-primary) 22%, transparent);
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+  p, li, dd {
+    text-wrap: pretty;
+  }
+
+  /* Tailwind v4 removed the pointer cursor on buttons, so restore it */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  summary,
+  label[for],
+  select {
+    cursor: pointer;
+  }
+  :disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
+  /* Gentle default transitions for interactive elements (utilities win) */
+  a, button, [role="button"], input, select, textarea, summary {
+    transition-property: color, background-color, border-color, box-shadow, opacity, outline-color;
+    transition-duration: var(--em-dur);
+    transition-timing-function: var(--em-ease);
+  }
+
+  /* Accessible, on-brand keyboard focus */
+  :focus-visible {
+    outline: 2px solid var(--em-ring);
+    outline-offset: 2px;
+  }
+
+  /* Form controls follow the brand */
+  input, textarea, select {
+    caret-color: var(--brand-primary);
+    accent-color: var(--brand-primary);
+  }
+  input[type="checkbox"], input[type="radio"], input[type="range"], progress {
+    accent-color: var(--brand-primary);
+  }
+  ::placeholder {
+    color: var(--em-text-3);
+    opacity: 1;
+  }
+
+  /* Calm autofill in both themes (no harsh yellow / white flash) */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  select:-webkit-autofill {
+    -webkit-text-fill-color: var(--em-text);
+    box-shadow: 0 0 0 1000px var(--em-surface-2) inset;
+    transition: background-color 9999s ease-out 0s;
+  }
+
+  /* Data reads better with even-width numerals */
+  table, time, .tabular, [data-numeric], .font-mono {
+    font-variant-numeric: tabular-nums;
+  }
+
+  img {
+    -webkit-user-drag: none;
+  }
+
+  /* Slim, quiet scrollbars */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(24 24 27 / 0.18) transparent;
+  }
+  html.dark * {
+    scrollbar-color: rgb(255 255 255 / 0.14) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(24 24 27 / 0.16);
+    border-radius: 999px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(24 24 27 / 0.28);
+  }
+  html.dark *::-webkit-scrollbar-thumb {
+    background-color: rgb(255 255 255 / 0.12);
+  }
+  html.dark *::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(255 255 255 / 0.22);
+  }
+}
+
+/* ---------- 4. Component primitives ------------------------------------- */
+@layer components {
+  /* Surfaces */
+  .em-card {
+    background-color: var(--em-surface);
+    border: 1px solid var(--em-border);
+    border-radius: var(--em-radius-lg);
+    box-shadow: var(--shadow-xs);
+  }
+  .em-glass {
+    background-color: color-mix(in oklab, var(--em-surface) 82%, transparent);
+    -webkit-backdrop-filter: saturate(1.6) blur(16px);
+    backdrop-filter: saturate(1.6) blur(16px);
+  }
+
+  /* Buttons */
+  .em-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: 0.005em;
+    white-space: nowrap;
+    user-select: none;
+    transition: background-color var(--em-dur) var(--em-ease), color var(--em-dur) var(--em-ease),
+      border-color var(--em-dur) var(--em-ease), box-shadow var(--em-dur) var(--em-ease),
+      transform var(--em-dur-fast) var(--em-ease);
+  }
+  .em-btn:active:not(:disabled) {
+    transform: scale(0.98);
+  }
+  .em-btn:disabled {
+    opacity: 0.55;
+  }
+  .em-btn-primary {
+    background-color: var(--brand-primary);
+    color: #fff;
+    box-shadow: 0 1px 2px rgb(12 11 10 / 0.08), 0 6px 16px -6px rgba(var(--brand-primary-rgb), 0.55);
+  }
+  .em-btn-primary:hover:not(:disabled) {
+    background-color: var(--brand-primary-hover);
+    box-shadow: 0 1px 2px rgb(12 11 10 / 0.08), 0 10px 22px -8px rgba(var(--brand-primary-rgb), 0.6);
+  }
+  .em-btn-soft {
+    background-color: color-mix(in oklab, var(--brand-primary) 9%, var(--em-surface));
+    color: var(--brand-primary);
+    border: 1px solid color-mix(in oklab, var(--brand-primary) 18%, transparent);
+  }
+  .em-btn-soft:hover:not(:disabled) {
+    background-color: color-mix(in oklab, var(--brand-primary) 15%, var(--em-surface));
+  }
+  html.dark .em-btn-soft {
+    color: color-mix(in oklab, var(--brand-primary) 62%, white);
+  }
+  .em-btn-ghost {
+    color: var(--em-text-2);
+  }
+  .em-btn-ghost:hover:not(:disabled) {
+    color: var(--em-text);
+    background-color: color-mix(in oklab, var(--em-text) 6%, transparent);
+  }
+
+  /* Round icon button */
+  .em-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 999px;
+    color: var(--em-text-2);
+    background-color: color-mix(in oklab, var(--em-text) 4%, transparent);
+    border: 1px solid var(--em-border);
+    transition: background-color var(--em-dur) var(--em-ease), color var(--em-dur) var(--em-ease),
+      border-color var(--em-dur) var(--em-ease), transform var(--em-dur-fast) var(--em-ease);
+  }
+  .em-icon-btn:hover {
+    color: var(--em-text);
+    background-color: color-mix(in oklab, var(--em-text) 8%, transparent);
+    border-color: var(--em-border-strong);
+  }
+  .em-icon-btn:active {
+    transform: scale(0.94);
+  }
+
+  /* Inputs */
+  .em-input {
+    width: 100%;
+    min-height: 2.75rem;
+    padding: 0.625rem 0.875rem;
+    border-radius: var(--em-radius);
+    border: 1px solid var(--em-border-strong);
+    background-color: var(--em-surface-2);
+    color: var(--em-text);
+    font-size: 0.9375rem;
+    transition: border-color var(--em-dur) var(--em-ease), box-shadow var(--em-dur) var(--em-ease),
+      background-color var(--em-dur) var(--em-ease);
+  }
+  .em-input:hover {
+    border-color: color-mix(in oklab, var(--em-text) 22%, transparent);
+  }
+  .em-input:focus {
+    outline: none;
+    background-color: var(--em-surface);
+    border-color: var(--brand-primary);
+    box-shadow: 0 0 0 4px var(--em-ring-soft);
+  }
+  .em-label {
+    display: block;
+    margin-bottom: 0.375rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--em-text-2);
+    letter-spacing: 0.01em;
+  }
+
+  /* Eyebrow labels */
+  .em-eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--em-text-3);
+  }
+
+  /* Spinner */
+  .em-spinner {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 999px;
+    border: 3px solid color-mix(in oklab, var(--brand-primary) 16%, transparent);
+    border-top-color: var(--brand-primary);
+    animation: spin 0.8s linear infinite;
+  }
+
+  /* Skeleton shimmer */
+  .em-skeleton {
+    background: linear-gradient(
+      90deg,
+      color-mix(in oklab, var(--em-text) 6%, transparent) 25%,
+      color-mix(in oklab, var(--em-text) 11%, transparent) 37%,
+      color-mix(in oklab, var(--em-text) 6%, transparent) 63%
+    );
+    background-size: 400% 100%;
+    animation: em-shimmer 1.6s linear infinite;
+  }
+
+  /* Route content: a quiet fade on page mount. Opacity only, so fixed
+     modals inside pages keep their viewport positioning. */
+  .em-page > * {
+    animation: em-fade-in 320ms var(--em-ease) backwards;
+  }
+
+  /* Soft brand glow used behind hero and auth cards */
+  .em-brand-glow {
+    background-image:
+      radial-gradient(60rem 30rem at 10% -10%, color-mix(in oklab, var(--brand-primary) 12%, transparent), transparent 60%),
+      radial-gradient(40rem 24rem at 110% 110%, color-mix(in oklab, #c9a45c 14%, transparent), transparent 60%);
+  }
+}
+
+/* ---------- 5. Toast notifications -------------------------------------- */
+/* react-hot-toast (storefront) */
+.em-toast {
+  border-radius: 999px !important;
+  padding: 0.625rem 1rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  color: var(--em-text) !important;
+  background: var(--em-surface) !important;
+  border: 1px solid var(--em-border) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* react-toastify (admin) */
+.Toastify__toast {
+  font-family: var(--font-sans);
+  border-radius: var(--em-radius) !important;
+  border: 1px solid var(--em-border);
+  background: var(--em-surface) !important;
+  color: var(--em-text) !important;
+  box-shadow: var(--shadow-lg) !important;
+  font-size: 0.875rem;
+  min-height: 56px;
+}
+.Toastify__close-button {
+  color: var(--em-text-3) !important;
+  opacity: 1 !important;
+}
+.Toastify__progress-bar--success { background: #10b981 !important; }
+.Toastify__progress-bar--error { background: #dc2626 !important; }
+.Toastify__progress-bar--info,
+.Toastify__progress-bar--default { background: var(--brand-primary) !important; }
+
+/* ---------- 6. Reduced motion ------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- 7. Dark-mode safety net ------------------------------------- */
+/* Brand-soft surfaces, text and borders that were written without a dark:
+   variant would glow as light pink on dark surfaces. These rules only apply
+   when the element has no explicit dark: override of the same property. */
+html.dark .bg-pink-50:not([class*="dark:bg-"]),
+html.dark .bg-pink-100:not([class*="dark:bg-"]) {
+  background-color: color-mix(in oklab, var(--brand-primary) 14%, transparent);
+}
+html.dark .hover\:bg-pink-50:hover:not([class*="dark:hover:bg-"]),
+html.dark .hover\:bg-pink-100:hover:not([class*="dark:hover:bg-"]) {
+  background-color: color-mix(in oklab, var(--brand-primary) 20%, transparent);
+}
+html.dark .text-pink-600:not([class*="dark:text-"]):not(.bg-white),
+html.dark .text-pink-700:not([class*="dark:text-"]):not(.bg-white) {
+  color: color-mix(in oklab, var(--brand-primary) 62%, white);
+}
+html.dark .border-pink-100:not([class*="dark:border-"]),
+html.dark .border-pink-200:not([class*="dark:border-"]) {
+  border-color: color-mix(in oklab, var(--brand-primary) 28%, transparent);
+}
+/* Translucent brand-soft surfaces (bg-pink-50/60 etc.) without a dark: variant.
+   Matches the class at the start of the list or after a space, so hover:bg-pink-50/xx
+   is not caught. */
+html.dark :is([class^="bg-pink-50/"], [class*=" bg-pink-50/"], [class^="bg-pink-100/"], [class*=" bg-pink-100/"]):not([class*="dark:bg-"]) {
+  background-color: color-mix(in oklab, var(--brand-primary) 10%, transparent);
+}
+
+/* ---------- 8. Premium interaction layer -------------------------------- */
+/* Every solid brand button gets the same soft brand glow and a gentle press,
+   unless it already defines a custom shadow or its own press animation. */
+:where(button, a, [role="button"]).bg-pink-600:not(:disabled):not([class*="shadow-["]) {
+  box-shadow: 0 1px 2px rgb(12 11 10 / 0.08), 0 8px 20px -10px rgba(var(--brand-primary-rgb), 0.65);
+}
+:where(button, a, [role="button"]).bg-pink-600:not(:disabled):not([class*="shadow-["]):hover {
+  box-shadow: 0 1px 2px rgb(12 11 10 / 0.08), 0 12px 26px -10px rgba(var(--brand-primary-rgb), 0.72);
+}
+:where(button, a, [role="button"]):is(.bg-pink-600, .em-btn-primary):not(:disabled):not([class*="active:scale"]):active {
+  scale: 0.98;
+}
+
+/* Inputs without their own focus styling get a calm brand focus glow */
+:where(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]), textarea, select):not([class*="focus:"]):focus {
+  outline: none;
+  border-color: var(--brand-primary);
+  box-shadow: 0 0 0 4px var(--em-ring-soft);
+}
+
+/* Images settle in softly as they load */
+@layer base {
+  img {
+    transition: opacity var(--em-dur-slow) var(--em-ease);
+  }
+}
+
+/* ---------- 9. Premium polish (gold) -------------------------------------- */
+/* Text/icon colour that sits on a solid brand fill: near-black on gold in both modes (set per palette by themeManager). */
+:root { --brand-on: #0c0b0a; }
+html.dark {
+  --brand-primary: #d9b44a;
+  --brand-primary-hover: #c49f35;
+  --brand-primary-rgb: 217, 180, 74;
+  --brand-on: #0c0b0a;
+}
+:is(.bg-pink-500, .bg-pink-600, .bg-pink-700, .bg-rose-500, .bg-rose-600, .bg-brand, .em-btn-primary,
+    [class*="from-pink-600"], [style*="background-color: var(--brand-primary"], [style*="background: var(--brand-primary"]):not(.bg-white),
+:is(.bg-pink-500, .bg-pink-600, .bg-pink-700, .bg-rose-500, .bg-rose-600, .bg-brand, .em-btn-primary,
+    [class*="from-pink-600"], [style*="background-color: var(--brand-primary"], [style*="background: var(--brand-primary"]):not(.bg-white)
+    :is(.text-white, svg, span:not([class*="bg-"])) {
+  color: var(--brand-on) !important;
+}
+html.dark :is(.dark\:bg-rose-600, .dark\:bg-rose-500, .dark\:bg-pink-600),
+html.dark :is(.dark\:bg-rose-600, .dark\:bg-rose-500, .dark\:bg-pink-600) :is(.text-white, svg) {
+  color: var(--brand-on) !important;
+}
+
+/* Soft sheen + inner highlight on every solid brand button */
+:where(button, a, [role="button"]):is(.bg-pink-600, .em-btn-primary):not(:disabled) {
+  background-image: linear-gradient(180deg, rgb(255 255 255 / 0.10), rgb(255 255 255 / 0) 55%);
+}
+:where(button, a, [role="button"]).bg-pink-600:not(:disabled):not([class*="shadow-["]),
+.em-btn-primary:not(:disabled) {
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.22),
+    0 1px 2px rgb(12 11 10 / 0.12),
+    0 10px 24px -14px rgba(var(--brand-primary-rgb), 0.45);
+}
+
+/* Hairline top highlight on dark cards and panels */
+html.dark :is(.em-card, .rounded-2xl, .rounded-3xl):is(.bg-white, [class*="dark:bg-[#12110f]"], [class*="dark:bg-[#161411]"]) {
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.045), 0 18px 40px -24px rgb(0 0 0 / 0.7);
+}
+
+/* Soft gold glow behind pages */
+@layer base {
+  html.dark body {
+    background-image:
+      radial-gradient(70rem 36rem at 50% -14rem, rgba(var(--brand-primary-rgb), 0.07), transparent 70%),
+      radial-gradient(40rem 24rem at 100% 100%, rgba(var(--brand-primary-rgb), 0.04), transparent 70%);
+    background-attachment: fixed;
+  }
+  html:not(.dark) body {
+    background-image: radial-gradient(60rem 30rem at 50% -12rem, rgb(201 164 92 / 0.10), transparent 70%);
+    background-attachment: fixed;
+  }
+}
+
+/* Gold eyebrow labels echo the logo */
+html.dark .em-eyebrow { color: var(--color-champagne); letter-spacing: 0.16em; }
+.em-eyebrow { color: var(--color-champagne-strong); }
+
+::selection { background-color: rgb(201 164 92 / 0.32); }
+:focus-visible { outline-offset: 3px; }
+h1, h2 { letter-spacing: -0.02em; }
+
+/* Brand-coloured TEXT uses a deeper gold than brand fills so it stays readable on light surfaces */
+:root { --brand-text: #8a6516; }
+html.dark { --brand-text: #e2c478; }
+:is(.text-pink-500, .text-pink-600, .text-pink-700, .text-rose-500, .text-rose-600, .text-brand,
+    [style^="color: var(--brand-primary"], [style*="; color: var(--brand-primary"]):not([class*="bg-pink-6"]) {
+  color: var(--brand-text) !important;
+}
+html.dark :is(.dark\:text-pink-300, .dark\:text-pink-400, .dark\:text-rose-300, .dark\:text-rose-400) {
+  color: var(--brand-text) !important;
+}

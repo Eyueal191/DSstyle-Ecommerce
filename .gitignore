@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+backend/uploads/userProfiles/
+*.log
+backend/.env.production
+dist.tar.gz

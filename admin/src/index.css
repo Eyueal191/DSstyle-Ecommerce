@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&family=Fraunces:opsz,wght@9..144,400..700&display=swap');
+@import "tailwindcss";
+@import "./styles/design-system.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3 {
+    letter-spacing: -0.01em;
+  }
+}
+
+body {
+  background-color: #f4f3f0;
+  color: #18181b;
+}
+
+html.dark body {
+  background-color: #0c0b0a;
+  color: #f4f3f0;
+}
+
+/* Global Dark Mode Surfaces for Admin Dashboard */
+html.dark .bg-white {
+  background-color: #161411;
+}
+
+html.dark .bg-gray-50 {
+  background-color: #1c1a16;
+}
+
+html.dark .bg-gray-100 {
+  background-color: #211e1a;
+}
+
+html.dark .border-gray-200,
+html.dark .border-gray-200\/70,
+html.dark .border-gray-200\/80,
+html.dark .border-gray-200\/90,
+html.dark .border-gray-100,
+html.dark .border-gray-100\/60,
+html.dark .divide-gray-100 > * + * {
+  border-color: #243048;
+}
+
+html.dark .text-gray-900,
+html.dark .text-gray-800 {
+  color: #fafaf8;
+}
+
+html.dark .text-gray-700,
+html.dark .text-gray-600 {
+  color: #cbd5e1;
+}
+
+html.dark .text-gray-500,
+html.dark .text-gray-400 {
+  color: #94a3b8;
+}
+
+html.dark input:not([type="checkbox"]):not([type="radio"]):not([type="color"]),
+html.dark select,
+html.dark textarea {
+  background-color: #161411;
+  color: #fafaf8;
+  border-color: #334155;
+}
+
+/* Elements that must stay white in both themes (toggle knobs, logo tiles, badges) */
+html.dark .em-keep-light.bg-white {
+  background-color: #ffffff;
+}

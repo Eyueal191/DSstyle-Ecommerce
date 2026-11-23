@@ -1,0 +1,37 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Pass existing physical files and directories through directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Rewrite all other routes to index.html for React SPA client routing
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Gzip / Deflate Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# Browser Caching & Security Headers
+<IfModule mod_headers.c>
+  # Allow embedding inside Telegram Mini App
+  Header set Content-Security-Policy "frame-ancestors 'self' https://web.telegram.org https://*.telegram.org https://telegram.org"
+  Header set X-Content-Type-Options "nosniff"
+
+  # Do not cache index.html to ensure users always receive latest deployments
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+  </FilesMatch>
+
+  # Cache immutable hashed assets for 1 year
+  <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|webp)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+  </FilesMatch>
+</IfModule>
+

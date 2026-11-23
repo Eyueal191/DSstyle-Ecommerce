@@ -1,0 +1,32 @@
+# DS Style backend - PRODUCTION (server 72.61.203.11, behind nginx + HTTPS)
+#
+#   cd backend
+#   docker compose -f docker-compose.prod.yml up -d --build
+#   docker compose -f docker-compose.prod.yml exec backend node scripts/seed.js   # first time only
+#
+#   Public URL -> https://api-dsstyle.endmartaddis.com  (nginx: deploy/nginx-dsstyle.conf)
+#   The API port is bound to 127.0.0.1 so only nginx on this machine can reach it,
+#   and MongoDB is not published at all.
+name: dsstyle-prod
+
+services:
+  backend:
+    build: .
+    container_name: dsstyle-backend-prod
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3040:3040"   # nginx -> API (not reachable from the internet directly)
+    env_file:
+      - ./.env.production
+    environment:
+      - NODE_ENV=production
+      - PORT=3040
+      # Mongo runs inside the same container
+      - MONGO_URI=mongodb://127.0.0.1:27017/Db_for_dsstyle
+    volumes:
+      - dsstyle_prod_db:/data/db          # database persists across restarts and rebuilds
+      - ./uploads:/app/uploads            # product photos (copy backend/uploads/ to the server)
+
+volumes:
+  dsstyle_prod_db:
+    name: dsstyle_prod_db
